@@ -29,4 +29,3 @@ function logAccess(matrix, timestamp) {
   console.log(`Access attempt: ${matrix} at ${timestamp}`);
   // You can later connect this to Google Sheets, Firebase, or a backend to store logs
 }
-
