@@ -1,0 +1,20 @@
+<TiltButton
+    variant="solid"
+    width={180}
+    height={90}
+    elevation={20}
+    pressInset={16}
+    tilt={2.22}
+    radius={17}
+    motion={160}
+    surfaceColor="#3b82f6"
+    sideColor="#1d4ed8"
+    textColor="#ffffff"
+    borderColor="transparent"
+    borderWidth={0}
+    glareColor="#ffffff"
+    glareOpacity={0.075}
+    glareWidth={40}
+>
+    Tilt Button
+</TiltButton>
