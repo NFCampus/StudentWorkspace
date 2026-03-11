@@ -65,8 +65,7 @@ input, button {
   color: white;
   border-radius: 6px;
   text-decoration: none;
-  transform: translateX(100px);
-  transition: 2s;
+ transition: 3s
 }
 
 .tool-btn:hover {
