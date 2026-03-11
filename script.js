@@ -11,7 +11,7 @@ document.getElementById('accessForm').addEventListener('submit', function(e) {
       if (data[matrix]) {
         document.getElementById('result').innerHTML = `
           ✅ Folder found! <br>
-          <a href="${data[matrix]}" target="_blank">Open Your Folder</a>
+          <a href="${data[matrix]}" target="_blank">Click To Open</a>
         `;
       } else {
         document.getElementById('result').innerHTML = `
@@ -20,7 +20,7 @@ document.getElementById('accessForm').addEventListener('submit', function(e) {
       }
     })
     .catch(error => {
-      document.getElementById('result').textContent = "Error loading folder data.";
+      document.getElementById('result').textContent = "Error. Please try again.";
       console.error(error);
     });
 });
